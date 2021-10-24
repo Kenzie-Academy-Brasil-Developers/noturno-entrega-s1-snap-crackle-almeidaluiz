@@ -1,5 +1,5 @@
 // Seu código vai aqui
-let myArray = []
+let myArray = [];
 
 function snapCrackle(maxValue) {
 
@@ -23,7 +23,7 @@ function snapCrackle(maxValue) {
         }
     }
     return myArray
-
 }
 
-snapCrackle(12)
+snapCrackle(15)
+console.log(myArray)
