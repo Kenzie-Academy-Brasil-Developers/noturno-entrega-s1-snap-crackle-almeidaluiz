@@ -22,7 +22,7 @@ function snapCrackle(maxValue) {
 
         }
     }
-    return myArray
+    return myArray.join(', ');
 }
 
 snapCrackle(15)
