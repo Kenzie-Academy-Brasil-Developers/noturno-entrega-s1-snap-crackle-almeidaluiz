@@ -1,8 +1,8 @@
 // Seu código vai aqui
-let myArray = [];
+
 
 function snapCrackle(maxValue) {
-
+    let myArray = [];
     for (counter = 1; counter <= maxValue; counter++) {
         if (counter % 2 !== 0 && counter % 5 === 0) {
 
@@ -22,8 +22,8 @@ function snapCrackle(maxValue) {
 
         }
     }
+    // console.log(myArray.join(', ')); // linha comentada para a entrega.
     return myArray.join(', ');
 }
 
 snapCrackle(15)
-console.log(myArray.join(', '));
